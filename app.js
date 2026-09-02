@@ -237,7 +237,7 @@ function renderHome() {
 
   return `
     <section class="hero">
-      <h1>Temukan yang kamu butuhkan, sedekat mungkin.</h1>
+      <h1>Temukan hidden gem di sekitar kamu!</h1>
       <p>Warung, jajanan, dan usaha lokal di sekitar kamu.</p>
       <label class="search-box">
         <span>⌕</span>
