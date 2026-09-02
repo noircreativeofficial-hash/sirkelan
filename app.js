@@ -238,7 +238,7 @@ function renderHome() {
   return `
     <section class="hero">
       <h1>Temukan hidden gem di sekitar kamu!</h1>
-      <p>Warung, jajanan, dan usaha lokal di sekitar kamu.</p>
+      <p>Warung, jajanan, dan usaha lokal di sekitar RT.04/02!.</p>
       <label class="search-box">
         <span>⌕</span>
         <input id="homeSearch" placeholder="Cari warung, jajanan..." value="${searchTerm}">
