@@ -250,10 +250,54 @@ function renderHome() {
     </div>
 
     <div class="categories">
-      <button class="category" onclick="goCategory('Makanan')"><span class="emoji">🍜</span><small>Makanan</small></button>
-      <button class="category" onclick="goCategory('Minuman')"><span class="emoji">🥤</span><small>Minuman</small></button>
-      <button class="category" onclick="goCategory('Jajanan')"><span class="emoji">🍪</span><small>Jajanan</small></button>
-      <button class="category" onclick="goCategory('Warung')"><span class="emoji">🏪</span><small>Warung</small></button>
+      <div class="categories">
+  <button class="category" onclick="goCategory('Makanan')">
+    <span class="category-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 11h16"/>
+        <path d="M5 11c.6 5 3.6 8 7 8s6.4-3 7-8"/>
+        <path d="M7 8c1.5-2 3.5-3 5-3s3.5 1 5 3"/>
+      </svg>
+    </span>
+    <small>Makanan</small>
+  </button>
+
+  <button class="category" onclick="goCategory('Minuman')">
+    <span class="category-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M7 7h10l-1 13H8L7 7Z"/>
+        <path d="M9 4h6"/>
+        <path d="M12 4v3"/>
+      </svg>
+    </span>
+    <small>Minuman</small>
+  </button>
+
+  <button class="category" onclick="goCategory('Jajanan')">
+    <span class="category-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="8"/>
+        <circle cx="9" cy="9" r="1"/>
+        <circle cx="14.5" cy="10" r="1"/>
+        <circle cx="11" cy="14.5" r="1"/>
+        <circle cx="16" cy="15" r="1"/>
+      </svg>
+    </span>
+    <small>Jajanan</small>
+  </button>
+
+  <button class="category" onclick="goCategory('Warung')">
+    <span class="category-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 10h16"/>
+        <path d="M5 10v10h14V10"/>
+        <path d="M4 10l2-5h12l2 5"/>
+        <path d="M9 20v-6h6v6"/>
+      </svg>
+    </span>
+    <small>Warung</small>
+  </button>
+</div>
     </div>
 
     <div class="ai-card">
