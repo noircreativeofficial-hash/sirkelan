@@ -151,38 +151,64 @@ main {
 
 .categories {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 9px;
-  margin-bottom: 28px;
+  width: 100%;
+  margin: 0 0 28px 0;
+  box-sizing: border-box;
 }
 
 .category {
+  width: 100%;
+  min-width: 0;
+  height: 66px;
+  box-sizing: border-box;
+
   background: var(--white);
   border: 1px solid var(--line);
   border-radius: 15px;
-  padding: 13px 5px;
+
+  padding: 10px 5px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+
   text-align: center;
   color: var(--text);
-}
-
-.category small {
-  font-size: 11px;
-  font-weight: 700;
+  cursor: pointer;
 }
 
 .category-icon {
-  display: block;
   width: 28px;
   height: 28px;
-  margin: 0 auto 7px;
+  flex: 0 0 28px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   color: var(--green);
 }
 
 .category-icon svg {
   display: block;
-  width: 100%;
-  height: 100%;
+  width: 25px;
+  height: 25px;
 }
+
+.category small {
+  display: block;
+  width: 100%;
+
+  font-size: 10px;
+  line-height: 1.2;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
 .business-list {
   display: grid;
   gap: 13px;
