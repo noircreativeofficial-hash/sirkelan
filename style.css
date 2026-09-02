@@ -150,22 +150,24 @@ main {
 }
 
 .categories {
-  width: 100%;
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 9px;
   margin-bottom: 28px;
 }
 
 .category {
-  width: 100%;
-  min-width: 0;
   background: var(--white);
   border: 1px solid var(--line);
   border-radius: 15px;
   padding: 13px 5px;
   text-align: center;
   color: var(--text);
+}
+
+.category small {
+  font-size: 11px;
+  font-weight: 700;
 }
 
 .category-icon {
@@ -181,12 +183,6 @@ main {
   width: 100%;
   height: 100%;
 }
-
-.category small {
-  font-size: 11px;
-  font-weight: 700;
-}
-
 .business-list {
   display: grid;
   gap: 13px;
