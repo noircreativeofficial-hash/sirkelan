@@ -250,7 +250,6 @@ function renderHome() {
     </div>
 
     <div class="categories">
-      <div class="categories">
   <button class="category" onclick="goCategory('Makanan')">
     <span class="category-icon">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
